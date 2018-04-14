@@ -8,8 +8,11 @@
     "start": "webpack-dev-server --open",
     "create": "webpack"
   },
-  "babel":{
-    "presets": ["env", "react"]
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -26,6 +29,7 @@
     "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
